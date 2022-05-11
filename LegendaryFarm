@@ -41,9 +41,10 @@ task.wait()
 until #workspace.Items:GetChildren() == 0
 loadstring(game:HttpGet'https://raw.githubusercontent.com/3bo3c0ewnj9hks/rororo/main/ActualServerHop.lua')()
 --made by rubic
-wait(0.2)
+wait(0.1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-779.748291, 67.0262299, -817.924072, -0.140109837, 1.20519816e-08, 0.990135968, 3.63581982e-08, 1, -7.02715619e-09, -0.990135968, 3.50149882e-08, -0.140109837)
-wait(0.3)
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-779.748291, 67.0262299, -817.924072, -0.140109837, 1.20519816e-08, 0.990135968, 3.63581982e-08, 1, -7.02715619e-09, -0.990135968, 3.50149882e-08, -0.140109837)
 
 local A_1 = "Lots"
 local Event = game:GetService("ReplicatedStorage").Events.SellKetchup
@@ -69,7 +70,7 @@ wait(0.1)
 local roka = game.Players.LocalPlayer.Character.Rokakaka.Use
 roka:FireServer()
 wait(1)
-
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-779.748291, 67.0262299, -817.924072, -0.140109837, 1.20519816e-08, 0.990135968, 3.63581982e-08, 1, -7.02715619e-09, -0.990135968, 3.50149882e-08, -0.140109837)
 local tool2 =  "Stand Arrow"
 
 game.Players.LocalPlayer.Backpack:FindFirstChild(tool2).Parent = game.Players.LocalPlayer.Character
